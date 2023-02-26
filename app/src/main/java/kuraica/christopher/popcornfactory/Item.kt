@@ -5,4 +5,5 @@ data class Item (
     val image: Int,
     val header: Int,
     val sinopsis: String,
+    var seats: ArrayList<Client>
 )
